@@ -1,0 +1,27 @@
+<view class="htmleaf-container" style="background:white;display:{{isLoading?'none':'block'}};height:100%;">
+
+  <view class="spinner-box" style="margin:0 auto;">
+    <view class="pulse-container" style="margin-top:500rpx;">
+      <view class="pulse-bubble pulse-bubble-1"></view>
+      <view class="pulse-bubble pulse-bubble-2"></view>
+      <view class="pulse-bubble pulse-bubble-3"></view>
+    </view>
+  </view>
+
+</view>
+
+<view style="display:{{isLoading?'block':'none'}}">
+
+
+  <nav-bar navbar-data='{{nvabarData}}'></nav-bar>
+  <view class='container' style='margin-top: {{height*2+20}}px'>
+    <view class="main">
+      <view class="avatar">
+        <image src="../../images/other/logo.png" mode="widthFix" />
+      </view>
+      <view class="intro">
+        <view>大家好！我们是三元一次不等式组，这里是 hzauSpeaking (华农说叭),感谢大家能够使用这个小程序。</view>
+      </view>
+    </view>
+  </view>
+</view>

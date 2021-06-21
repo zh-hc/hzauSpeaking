@@ -1,0 +1,11 @@
+<nav-bar navbar-data='{{nvabarData}}'></nav-bar>
+<view class='container' style='margin-top: {{height*2+20}}px'>
+  <view style="color:black;text-align:center;font-size:30rpx;font-weight:800;margin-top:10rpx;">华农说叭总规</view>
+  <view>- 发帖需要留下联系方式是为了数据的真实性以及安全性</view>
+  <view>- 禁止发布违规帖子内容以及评论</view>
+  <view style="color:black;text-align:center;font-size:30rpx;font-weight:800;margin-top:10rpx;">留言须知</view>
+  <view>- 管理员有权删除留言</view>
+  <view>- 禁止发布无关留言</view>
+  <view style="color:black;text-align:center;font-size:30rpx;font-weight:800;margin-top:10rpx;">其他</view>
+  <view>- 平台仅负责展示发布的信息，内容与平台无关，平台不负任何责任，请注意保护隐私</view>
+</view>
